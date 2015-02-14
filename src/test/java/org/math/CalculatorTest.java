@@ -13,5 +13,13 @@ public class CalculatorTest {
     public  void addTest(){
         Calculator c = new Calculator();
         Assert.assertEquals(5, c.add(3, 2));
+        c =null ;
+    }
+
+    @Test
+    public void subTest(){
+        Calculator s = new Calculator();
+        Assert.assertEquals(2 , s.sub(5,3));
+        s = null ;
     }
 }
