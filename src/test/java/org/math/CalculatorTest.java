@@ -14,7 +14,7 @@ public class CalculatorTest {
         // this is comment
         Calculator c = new Calculator();
         Assert.assertEquals(5, c.add(3, 2));
-        Assert.assertEquals(5, c.add(1, 2));
+        Assert.assertEquals(3, c.add(1, 2) );
         c =null ;
     }
 
