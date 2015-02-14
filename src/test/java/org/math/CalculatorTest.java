@@ -1,8 +1,8 @@
 package org.math;
 
-import org.junit.Test;
 
-import  org.junit.Assert;
+import org.junit.Assert;
+import org.junit.Test;
 
 /**
  * Created by deepak on 14/2/15.
