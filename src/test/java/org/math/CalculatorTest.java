@@ -2,15 +2,16 @@ package org.math;
 
 import org.junit.Test;
 
-import static org.junit.Assert.assertEquals;
+import  org.junit.Assert;
 
 /**
  * Created by deepak on 14/2/15.
+ * Project Name : ${PROJECT_NAME}
  */
 public class CalculatorTest {
     @Test
     public  void addTest(){
         Calculator c = new Calculator();
-        assertEquals(5 , c.add(3,2));
+        Assert.assertEquals(5, c.add(3, 2));
     }
 }
